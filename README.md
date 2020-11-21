@@ -1,5 +1,7 @@
 # Tantei - A Fake News Classifier 
 
+![Tantei](img/Tantei.png)
+
 ## Tasks to do
 
 The tasks that we will follow for the development of this classifier are the following:
