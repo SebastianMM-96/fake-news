@@ -5,7 +5,6 @@
 ![languages](https://img.shields.io/github/languages/count/SebastianMM-96/fake-news?style=plastic)
 ![top-languages](https://img.shields.io/github/languages/top/SebastianMM-96/fake-news)
 ![issues](https://img.shields.io/github/issues/SebastianMM-96/fake-news)
-![license](https://img.shields.io/github/license/SebastianMM-96/fake-news?style=plastic)
 
 ![Tantei](img/Tantei.png)
 
