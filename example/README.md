@@ -13,6 +13,6 @@ The techniques or methods implemented in the notebook are:
 * Bag-of-words & 
 * Tf-idf using NLTK. 
 
-### Open In Colab
+### Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SebastianMM-96/fake-news/blob/main/example/example_fn.ipynb)
