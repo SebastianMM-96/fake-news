@@ -15,4 +15,4 @@ The techniques or methods implemented in the notebook are:
 
 ### Open In Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/SebastianMM-96/fake-news/blob/main/example/example_fn.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SebastianMM-96/fake-news/blob/main/example/example_fn.ipynb)
