@@ -25,7 +25,7 @@ The tasks that we will follow for the development of this classifier are the fol
         * Tf-idf
 3. Building and Deploying Web App in Flask
 
-## Datasets
+## [Datasets](https://github.com/SebastianMM-96/fake-news/tree/main/data)
 
 The data sets that we will use for the development of this classifier will be obtained from different places, for example:
 
