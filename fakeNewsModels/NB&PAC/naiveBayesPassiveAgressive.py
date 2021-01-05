@@ -94,7 +94,7 @@ input("\nPress Enter to continue...\n")
 X_train, X_test, y_train, y_test = train_test_split(
     df['text'], y, test_size=0.33, random_state=53)
 
-print('Trainning and test datasets\n')
+print('Trainning and test datasets...\n')
 print('Train dataset: \n{}'.format(X_train))
 print('\nTest dataset: \n{}'.format(X_test))
 input("\nPress Enter to continue...\n")
