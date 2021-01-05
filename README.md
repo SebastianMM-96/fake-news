@@ -18,12 +18,7 @@
 
 The tasks that we will follow for the development of this classifier are the following:
 
-1. [EDA (Exploratory Data Analysis)](https://github.com/SebastianMM-96/fake-news/tree/main/data_analysis)
-2. Preprocessing and Model Training
-    - NLP Techniques:
-        * Bag-of-Words
-        * Tf-idf
-3. Building and Deploying Web App in Flask
+1. [EDA (Exploratory Data Analysis)](DataAnalysis/)
 
 ## [Datasets](https://github.com/SebastianMM-96/fake-news/tree/main/data)
 
