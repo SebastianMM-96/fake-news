@@ -1,17 +1,1 @@
-# NLP Techniques
-
-## About dataset
-
-The data set can be obtained in the following [link](https://www.kaggle.com/c/fake-news/data).
-
-1. train.csv: A full training dataset with the following attributes:
-
-- id: unique id for a news article
-- title: the title of a news article
-- author: author of the news article
-- text: the text of the article; could be incomplete
-- label: a label that marks the article as potentially unreliable
-- 1: unreliable
-- 0: reliable
-
-2. test.csv: A testing training dataset with all the same attributes at train.csv without the label.
+# Detecting fake news using NLP
