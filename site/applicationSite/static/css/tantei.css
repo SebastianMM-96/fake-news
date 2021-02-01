@@ -1,0 +1,106 @@
+@font-face{
+    font-family: PopLight;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face{
+    font-family: PopMedium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face{
+    font-family: PopRegular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: PopRegular;
+    box-sizing: border-box;
+    background: #111;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+    color: #111;
+}
+
+.btn{
+    margin-top: 20px;
+    border: none;
+    box-shadow: none;
+    padding: 10px 25px;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #1ed760;
+    color: #111;
+}

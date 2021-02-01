@@ -4,7 +4,7 @@ news = input('Enter a news text to classify: \n')
 
 def classFakeNews(news):
     # Using the model
-    loadModel = pickle.load(open('<model_name>', 'rb'))
+    loadModel = pickle.load(open('linearModel.sav', 'rb'))
     prediction = loadModel.predict([news])
 
     return(print('The news is: {}'.format(prediction[0])))
