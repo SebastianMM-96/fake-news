@@ -13,16 +13,19 @@
         <a href="/" class="logo">Tantei | 探偵</a>
         <ul>
             <li><a href="/">Home</a></li>
+            <li><a href="/tantei">Try again</a></li>
         </ul>
     </header>
 
-    <div class="container">
-        <h3>Enter a text news to classify</h3>
-        <form action="{{ url_for('predict') }}" method="POST">
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="predict" class="btn">
-        </form>
+    <div class="results">
+        {% if prediction == 1%}
+        <h2 style="color:red;">Real</h2>
+        {% elif prediction == 0%}
+        <h2 style="color:blue;">Fake</h2>
+        {% endif %}
     </div>
+
+    <!--Try again link-->
 
 </body>
 </html>
