@@ -1,4 +1,3 @@
-# Import the neccessary libraries
 from flask import Flask, render_template, url_for, request
 import pickle
 
@@ -10,12 +9,7 @@ app = Flask(
     template_folder='templates'
 )
 
-# Load the model
-model = pickle.load(open('passiveAgressiveModel.pkl', 'rb'))
-# Load the Tf-idf vectorizer
-tfidf = pickle.load(open('tfidf.pkl', 'rb'))
-
-# # Home page
+# Home page
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -25,20 +19,16 @@ def index():
 def tantei():
     return render_template('tantei.html')
 
-@app.route('/result')
-def result():
-    return render_template('result.html')
-
-# Predicted result
-@app.route('/predict', methods=['POST'])
+# Prediction
+@app.route('/predict')
 def predict():
     message = request.form['message']
-    # Fix this part
-    predict = model.predict(tfidf.transform[message])
+    myPrediction = model.predict(tv.transform([message]))
+    return render_template('tantei.html', prediction = myPrediction)
 
-    return render_template('result.html', prediction = predict)
-
-# Running in port 3200
-if __name__ == '__main__':
+# Run the app
+if __name__== '__main__':
+    model = pickle.load(open('model.pkl', 'rb'))
+    tv = pickle.load(open('tv.pkl', 'rb'))
     # Run the app
-    app.run(port = 3200, debug = True)
+    app.run(debug = True)
